@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var fileInfo = new FileInfo(@"C:\Users\ohago\source\repos\SkillFactoty\Modules\Module-8--Work-with_files\Task-8-3-1-output-program-cs\Program.cs");
+            var fileInfo = new FileInfo("C:\\Users\\Roman-PC\\source\\repos\\SkillFactory-Modules\\Module-8--Work-with_files\\Task-8-3-2-output-program-cs-add-data-time\\Program.cs");
 
             using (StreamWriter sw = fileInfo.AppendText())
             {
@@ -23,3 +23,9 @@
         }
     }
 }
+// Время запуска: 5/8/2025 5:42:16 PM
+// Время запуска: 5/8/2025 5:44:02 PM
+// Время запуска: 5/8/2025 5:44:06 PM
+// Время запуска: 5/8/2025 5:46:53 PM
+// Время запуска: 5/8/2025 10:06:48 PM
+// Время запуска: 5/8/2025 10:07:45 PM

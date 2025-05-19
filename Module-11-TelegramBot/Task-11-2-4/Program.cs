@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Telegram.Bot;
+using VoiceTexterBot.Controllers;
 
 namespace Task_11_2_4
 {
@@ -29,9 +30,10 @@ namespace Task_11_2_4
         static void ConfigureServices(IServiceCollection services)
         {
             // Регистрируем объект TelegramBotClient c токеном подключения
-            services.AddSingleton<ITelegramBotClient>(provider => new TelegramBotClient("7753623099:AAE9_Xx77gOv-vNk-qtTPDErp4RBhRIZH00"));
+            services.AddSingleton<ITelegramBotClient>(provider => new TelegramBotClient("8106712489:AAG6Nfh5bLpYjjo7sb3GiiCsRBcXsecMoXs"));
             // Регистрируем постоянно активный сервис бота
             services.AddHostedService<bot_task11_2_4>();
+            
         }
     }
 }
