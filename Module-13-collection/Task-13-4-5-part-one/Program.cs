@@ -6,7 +6,7 @@ namespace Task_13_4_5_part_one
     {
 
         //  Объявим  сортированный  словарь
-        private static SortedDictionary<string, Contact> SortedPhoneBook = new SortedDictionary<String, Contact>()
+        private static readonly SortedDictionary<string, Contact> SortedPhoneBook = new()
         {
             ["Игорь"] = new Contact(79990000000, "igor@example.com"),
             ["Андрей"] = new Contact(79990000001, "andrew@example.com"),
