@@ -2,8 +2,8 @@
 {
     internal class Program
     {
-        //   статическая переменная для хранения данных в памяти
-        public static List<int> Numbers = new List<int>();
+        //статическая переменная для хранения данных в памяти
+        public static List<int> Numbers = [];
         static void Main(string[] args)
         {
             while (true)
@@ -28,7 +28,7 @@
 
                     // выводим все критерии
                     Console.WriteLine("Число " + input + " добавлено в список.");
-                    Console.WriteLine($" &quot; Всего в списке  { Numbers.Count}  чисел");
+                    Console.WriteLine($" & quot; Всего в списке  { Numbers.Count}  чисел");
                   
                     Console.WriteLine($"Сумма:  {Numbers.Sum()}");
                     Console.WriteLine($"Наибольшее:  {Numbers.Max()}");
